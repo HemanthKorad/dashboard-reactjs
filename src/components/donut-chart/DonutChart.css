@@ -1,0 +1,36 @@
+.chart-container{
+    background: var(--light-bg);
+    border-radius: 8px;
+}
+
+.chart-body{
+    height: 300px;
+    position: relative;
+}
+ 
+.inner-text-box{
+    position: absolute;
+    z-index: 2;
+    top: 31%;
+    width: 80px;
+    text-align: center;
+    left: 32%;
+}
+
+.inner-text{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+
+    .inner-text-box{
+        position: absolute;
+        z-index: 2;
+        top: 35%;
+        width: 80px;
+        text-align: center;
+        left: 30%;
+    }
+   
+}

@@ -3,6 +3,49 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { 
+  faEnvelope, 
+  faDashboard, 
+  faChevronDown, 
+  faChevronRight,
+  faMagnifyingGlass,
+  faMoneyCheckDollar,
+  faFileInvoiceDollar,
+  faBagShopping,
+  faWallet,
+  faArrowUp,
+  faArrowDown,
+  faUser,
+  faQuestion,
+  faTags,
+  faBullhorn,
+  faBox,
+  faGear,
+  faBars
+
+} from '@fortawesome/free-solid-svg-icons'
+
+const element = <FontAwesomeIcon icon={[
+    faEnvelope,
+    faDashboard,
+    faChevronDown,
+    faChevronRight,
+    faMagnifyingGlass,
+    faMoneyCheckDollar,
+    faFileInvoiceDollar,
+    faBagShopping,
+    faWallet,
+    faArrowUp,
+    faArrowDown,
+    faUser,
+    faQuestion,
+    faTags,
+    faBullhorn,
+    faBox,
+    faGear,
+    faBars
+  ]} />
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

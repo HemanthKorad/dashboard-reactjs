@@ -1,0 +1,23 @@
+.bar-graph{
+    background: var(--light-bg);
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.filter-box{
+    background-color: var(--grey-bg);
+    width: fit-content;
+    border-radius: 5px;
+    color: rgba(88, 87, 87, 0.623);
+}
+
+.secondary-text{
+    font-size: 12px;
+    color: rgba(88, 87, 87, 0.623);
+    font-weight: 500;
+}
+
+.bar{
+    min-height: 170px;
+    max-height: 300px;
+}

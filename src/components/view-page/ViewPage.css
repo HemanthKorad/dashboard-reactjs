@@ -1,0 +1,29 @@
+.main-dash{
+    background: var(--grey-bg);
+}
+
+.search-box{
+    background: var(--light-bg);
+    border-radius: 5px;
+    max-width: 250px;
+}
+
+.custom-input{
+    border: none;
+    font-size: 14px;
+}
+
+.custom-input:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 768px) {
+    .input-hold{
+        display: none;
+    }
+
+    .welcome{
+        position: relative;
+        left: 35px;
+    }
+}

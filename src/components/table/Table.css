@@ -1,0 +1,89 @@
+.products-block{
+    background: var(--light-bg);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.filter-box{
+    background-color: var(--grey-bg);
+    width: fit-content;
+    border-radius: 5px;
+    color: rgba(88, 87, 87, 0.623);
+}
+
+.secondary-text{
+    font-size: 13px;
+    color: rgba(88, 87, 87, 0.623);
+    font-weight: 500;
+}
+
+.search-box-2{
+    background: var(--grey-bg);
+    border-radius: 5px;
+    max-width: 250px;
+}
+
+.custom-input-2{
+    border: none;
+    font-size: 14px;
+    background: var(--grey-bg);
+
+}
+
+.custom-input:focus{
+    outline: none;
+}
+
+img{
+    border-radius: 5px;
+}
+
+.title-text{
+    font-size: 15px;
+}
+
+.price{
+    font-size: 14px;
+}
+
+.sales, .stock{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) { 
+    .description {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100px;
+    }
+
+    .stock,
+    .price,
+    .sales {
+        font-size: 12px;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+
+    .extra, .filter-text, .hold{
+        display: none;
+    }
+
+    .filter-box{
+        width: auto;
+    }
+
+    .filter-days{
+        font-size: 12px;
+    }
+
+}
+  
+  
+  
+  

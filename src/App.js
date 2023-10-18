@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faDashcube} from "@fortawesome/free-solid-svg-icons";
+import Sidebar from './components/side-bar/Sidebar'
+import ViewPage from './components/view-page/ViewPage'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="cont d-flex" id="wrapper">
+      <Sidebar />
+      <ViewPage />
     </div>
+
   );
 }
 
